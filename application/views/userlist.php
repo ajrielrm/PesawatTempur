@@ -52,7 +52,7 @@
                     <a class="nav-link" href="flight">Flights</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Travel Routes</a>
+                    <a class="nav-link" href="routes">Travel Routes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Booking Tickets</a>

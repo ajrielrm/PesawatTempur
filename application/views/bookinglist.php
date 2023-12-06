@@ -66,13 +66,13 @@
                     <a class="nav-link" href="user">Users</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Flights</a>
+                    <a class="nav-link " href="#">Flights</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Travel Routes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Booking Tickets</a>
+                    <a class="nav-link " href="#">Booking Tickets</a>
                 </li>
             </ul>
 
@@ -95,29 +95,9 @@
         </div>
     </div>
 
-    <!-- Flight Addition Form -->
-    <div class="container form-container">
-        <h2>Add Flight</h2>
-        <form method="post" action="<?php echo base_url('register/aircraft') ?>" class="text-start">
-            <div class="form-group">
-                <label for="flightName">Aircraft Name</label>
-                <input type="text" class="form-control" id="flightName" name="airname" placeholder="Enter aircraft name">
-            </div>
-           <div class="form-group">
-                <label for="flightName">Aircraft Type</label>
-                <input type="text" class="form-control" id="flightName" name="airtype" placeholder="Enter aircraft type">
-            </div>
-            <div class="form-group">
-                <label for="flightName">Aircraft Capacity</label>
-                <input type="number" class="form-control" id="flightName" name="aircap" placeholder="Enter capacity type">
-            </div>
-            <button type="submit" class="btn btn-primary">Add Flight</button>
-        </form>
-    </div>
-
     <!-- Flight List -->
     <div class="container">
-        <h1>Flight List</h1>
+        <h1>Booking List</h1>
     
         <div>
             <table class="table table-bordered mt-4">
