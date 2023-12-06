@@ -31,6 +31,11 @@ class admin extends CI_Controller {
 		$data['aircrafts'] = $this->AircraftModel->get_all_aircraft();
 		$this->load->view('flightlist', $data);
 	}
+	public function booking()
+	{
+		$data['booking'] = $this->AircraftModel->get_all_aircraft();
+		$this->load->view('bookinglist', $data);
+	}
 	public function routes()
 	{
 		$data['aircrafts'] = $this->AircraftModel->get_all_aircraft();
