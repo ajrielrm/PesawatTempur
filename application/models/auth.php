@@ -27,6 +27,15 @@ class Auth extends CI_Model
 		);
 		$this->db->insert('aircrafts',$data_aircraft);
 	}
+	function addbooking($route,$aircraft,$seatCount,$pricePerSeat,$totalPrice)
+	{
+        $data_booking = array(
+			'AircraftName'=>$airname,
+			'AircraftType'=>$airtype,
+			'Capacity'=>$aircap
+		);
+		$this->db->insert('booking',$data_aircraft);
+	}
 	function route($departure,$arrival,$distance,$aircraft)
 	{
         $data_aircraft = array(
